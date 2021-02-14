@@ -69,7 +69,7 @@
                                 <rect key="frame" x="0.0" y="515" width="415" height="186"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAr-mg-CX2">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="vAr-mg-CX2">
                                         <rect key="frame" x="0.0" y="1" width="415" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -82,7 +82,7 @@
                                             <action selector="selectAnswer:" destination="Qki-eN-45R" eventType="touchUpInside" id="UPP-cf-tXS"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZl-08-ZdY">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="RZl-08-ZdY">
                                         <rect key="frame" x="0.0" y="49" width="415" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -95,7 +95,7 @@
                                             <action selector="selectAnswer:" destination="Qki-eN-45R" eventType="touchUpInside" id="tf4-By-KYe"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HN7-2t-qQG">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="HN7-2t-qQG">
                                         <rect key="frame" x="0.0" y="97" width="415" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -108,7 +108,7 @@
                                             <action selector="selectAnswer:" destination="Qki-eN-45R" eventType="touchUpInside" id="cjk-ba-oWF"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBj-Sy-hl8">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="cBj-Sy-hl8">
                                         <rect key="frame" x="0.0" y="145" width="415" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -143,7 +143,7 @@
                         <outletCollection property="btAnswers" destination="RZl-08-ZdY" collectionClass="NSMutableArray" id="x6g-Vy-5y6"/>
                         <outletCollection property="btAnswers" destination="HN7-2t-qQG" collectionClass="NSMutableArray" id="YDc-OD-pve"/>
                         <outletCollection property="btAnswers" destination="cBj-Sy-hl8" collectionClass="NSMutableArray" id="hne-a9-vki"/>
-                        <segue destination="Ce1-Rv-PTk" kind="show" id="Q2a-Hj-cWc"/>
+                        <segue destination="Ce1-Rv-PTk" kind="show" identifier="resultSegue" id="Q2a-Hj-cWc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z8d-ie-kn3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
